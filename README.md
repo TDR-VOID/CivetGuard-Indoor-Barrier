@@ -10,10 +10,13 @@
   <img src="Pictures/PCB_schematic.png" alt="PCB_schematic" width="500" />
 </div>
 </details>
+
+
 ## Components Used
 
 - NodeMCU
 - PIR Motion Sensor
+- LDR
 - Flashlight
   
 <br />
