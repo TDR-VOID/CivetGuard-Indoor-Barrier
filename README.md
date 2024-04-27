@@ -15,7 +15,7 @@
 - **Power Efficiency:** The device ensures efficient power usage by activating the flashlight only when motion is detected, eliminating the need for continuous illumination throughout the night.
 - **Real-time Monitoring with Database Integration:** The device utilizes Firebase database integration to enable real-time monitoring capabilities. Users can track flashlight activations and monitor LDR values remotely and instantly.
 - **Multiple Operation Modes:**
-  -Mode 1: The basic operating mode where the flashlight turns on upon detecting movement.
+    - Mode 1: The basic operating mode where the flashlight turns on upon detecting movement.
 
 ## Components Used
 
