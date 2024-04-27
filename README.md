@@ -26,7 +26,7 @@ Users can track the number of flashlight activations within specific time period
 - The BC547 NPN transistor operates as a switch, with the base connected to the microcontroller output pin (D2) via a resistor.
 - An IN4007 diode is connected to stop the back EMF of the relay, specifically to protect the switching transistor.
 - The circuit is powered through the NodeMCU Vin pin(5V, 1.5A).
--The PIR sensor is connected to the D1 digital pin, and the LDR is connected to the A0 analog pin for the inputs.
+- The PIR sensor is connected to the D1 digital pin, and the LDR is connected to the A0 analogue pin for the inputs.
 
 Note: In some cases, the Light Dependent Resistor (LDR) may not be necessary, as the device is typically installed in a dark area.
 
