@@ -35,8 +35,6 @@ Note: In some cases, the Light Dependent Resistor (LDR) may not be necessary, as
     - Mode 3 [(Advanced_Motion_Control_With_Data_Logger)](Code/Advanced_Motion_Control_With_Data_Logger/Advanced_Motion_Control_With_Data_Logger.ino): Enhances functionality with advanced features, including activation based on the frequency of motion within a specified time frame, in addition to all features of Mode 2.    
 - **Efficiency Analysis:** By analyzing the count of flashlight activations within specific time periods, users can draw conclusions regarding the device's efficiency and its ability to fulfil its intended purpose.
 
-Note: In some cases, the Light Dependent Resistor (LDR) may not be necessary, as the device is typically installed in a dark area.
-
 ## Components Used
 
 - NodeMCU
