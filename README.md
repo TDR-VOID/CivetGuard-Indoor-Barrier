@@ -16,6 +16,9 @@
 - **Real-time Monitoring with Database Integration:** The device utilizes Firebase database integration to enable real-time monitoring capabilities. Users can track flashlight activations and monitor LDR values remotely and instantly.
 - **Multiple Operation Modes:**
     - Mode 1: The basic operating mode where the flashlight turns on upon detecting movement.
+    - Mode 2: Extends Mode 1 functionality by logging the count of flashlight activations and the corresponding LDR values to the Firebase database.
+    - Mode 3: Enhances functionality with advanced features, including activation based on the frequency of motion within a specified time frame, in addition to all features         of Mode 2.
+- **Efficiency Analysis:** By analyzing the count of flashlight activations within specific time periods, users can draw conclusions regarding the device's efficiency and its ability to fulfill its intended purpose.
 
 ## Components Used
 
