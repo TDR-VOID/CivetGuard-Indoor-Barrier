@@ -10,6 +10,7 @@ The device is built using the NodeMCU microcontroller development board and conn
 
 Users can track the number of flashlight activations within specific time periods (e.g., one night) to assess the device's efficiency. This data allows users to gauge whether the device is effectively working while minimizing unnecessary power consumption.
 
+Note: In some cases, the Light Dependent Resistor (LDR) may not be necessary, as the device is typically installed in a dark area.
 <details>
 <summary>Circuit Diagrams</summary>
   <div style="display: flex; justify-content: center;">
