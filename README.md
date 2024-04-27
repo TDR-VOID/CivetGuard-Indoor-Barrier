@@ -40,7 +40,7 @@ Note: In some cases, the Light Dependent Resistor (LDR) may not be necessary, as
 - NodeMCU
 - PIR Motion Sensor
 - LDR
-- Transistor(BC547)
+- Transistor (BC547)
 - Flashlight
   
 <br />
