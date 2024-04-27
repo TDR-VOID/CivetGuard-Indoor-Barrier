@@ -36,7 +36,7 @@ Note: In some cases, the Light Dependent Resistor (LDR) may not be necessary, as
 - **Efficiency Analysis:** By analyzing the count of flashlight activations within specific time periods, users can draw conclusions regarding the device's efficiency and its ability to fulfil its intended purpose.
 
 - **Multiple Operation Modes:**
-    - [Mode 1 (Basic_Motion_Light)](#mode-1-basic_motion_light): The basic operating mode where the flashlight turns on upon detecting movement.
+    - [Mode 1 (Basic_Motion_Light)](Codes/Basic_Motion_Light/Basic_Motion_Light.ino): The basic operating mode where the flashlight turns on upon detecting movement.
     - [Mode 2 (Motion_Light_With_Firebase_Data_Logger)](#mode-2-motion_light_with_firebase_data_logger): Extends Mode 1 functionality by logging the count of flashlight activations and the corresponding LDR values to the Firebase database.
     - [Mode 3 (Advanced_Motion_Control_With_Data_Logger)](#mode-3-advanced_motion_control_with_data_logger): Enhances functionality with advanced features, including activation based on the frequency of motion within a specified time frame, in addition to all features of Mode 2. 
 
