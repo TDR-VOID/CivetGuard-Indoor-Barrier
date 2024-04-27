@@ -32,6 +32,7 @@ Users can track the number of flashlight activations within specific time period
 - NodeMCU
 - PIR Motion Sensor
 - LDR
+- Transistor(BC547)
 - Flashlight
   
 <br />
