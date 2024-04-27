@@ -1,6 +1,6 @@
-int PIR_IN = D1; // PIR sensor
-int LED = D0; // LED
-int outputPin = D2; // Relay
+int PIR_IN = D1; // PIR sensor input pin
+int LED = D0; // LED 
+int outputPin = D2; // Relay pin
 
 
 void setup()
@@ -10,10 +10,9 @@ void setup()
   pinMode(outputPin, OUTPUT);
   pinMode(LED, OUTPUT);
 
-  }
+}
 
-void loop()
-{
+void loop(){
   int pinread = digitalRead(PIR_IN);
 
   if (pinread == HIGH){
@@ -22,14 +21,12 @@ void loop()
     delay(5000);
     digitalWrite(outputPin, LOW);
     delay(1000);
-   }
-else
-   {
+  } else  {
     Serial.println("No Motion");
     digitalWrite(outputPin, LOW);
     blinkLED();
-    }
   }
+}
 
 
 void blinkLED(){
