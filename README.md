@@ -31,17 +31,11 @@ Note: In some cases, the Light Dependent Resistor (LDR) may not be necessary, as
 - **Real-time Monitoring with Database Integration:** The device utilizes Firebase database integration to enable real-time monitoring capabilities. Users can track flashlight activations and monitor LDR values remotely and instantly.
 - **Multiple Operation Modes:**
     - Mode 1 [(Basic_Motion_Light)](Code/Basic_Motion_Light/Basic_Motion_Light.ino): The basic operating mode where the flashlight turns on upon detecting movement.
-    - Mode 2 (Motion_Ligth_With_Firebase_Data_Logger): Extends Mode 1 functionality by logging the count of flashlight activations and the corresponding LDR values to the Firebase database.
-    - Mode 3 (Advanced_Motion_Control_With_Data_Logger): Enhances functionality with advanced features, including activation based on the frequency of motion within a specified time frame, in addition to all features of Mode 2.    
+    - Mode 2 [(Motion_Ligth_With_Firebase_Data_Logger)](Code/Motion_Ligth_With_Firebase_Data_Logger/Motion_Ligth_With_Firebase_Data_Logger.ino): Extends Mode 1 functionality by logging the count of flashlight activations and the corresponding LDR values to the Firebase database.
+    - Mode 3 [(Advanced_Motion_Control_With_Data_Logger)](Code/Advanced_Motion_Control_With_Data_Logger/Advanced_Motion_Control_With_Data_Logger.ino): Enhances functionality with advanced features, including activation based on the frequency of motion within a specified time frame, in addition to all features of Mode 2.    
 - **Efficiency Analysis:** By analyzing the count of flashlight activations within specific time periods, users can draw conclusions regarding the device's efficiency and its ability to fulfil its intended purpose.
 
-- **Multiple Operation Modes:**
-    - [Mode 1 (Basic_Motion_Light)](Code/Basic_Motion_Light/Basic_Motion_Light.ino): The basic operating mode where the flashlight turns on upon detecting movement.
-    - [Mode 2 (Motion_Light_With_Firebase_Data_Logger)](#mode-2-motion_light_with_firebase_data_logger): Extends Mode 1 functionality by logging the count of flashlight activations and the corresponding LDR values to the Firebase database.
-    - [Mode 3 (Advanced_Motion_Control_With_Data_Logger)](#mode-3-advanced_motion_control_with_data_logger): Enhances functionality with advanced features, including activation based on the frequency of motion within a specified time frame, in addition to all features of Mode 2. 
-
-...
-
+Note: In some cases, the Light Dependent Resistor (LDR) may not be necessary, as the device is typically installed in a dark area.
 
 ## Components Used
 
