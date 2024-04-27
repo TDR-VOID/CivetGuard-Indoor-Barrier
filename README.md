@@ -12,9 +12,10 @@
 </details>
 
 ## Features
-- **Automated Feeding:** The system autonomously manages feeding cycles based on predefined schedules and quantities, eliminating the need for constant human intervention.
-- **Customizable Feeding Schedules:** Owners can easily set specific feeding times and quantities for their fish, providing tailored care.
-- **LCD Display for Monitoring:** Displays elapsed time since the last feeding cycle, allowing owners to manually feed if necessary and adjust schedules based on displayed information.
+- **Power Efficiency:** The device ensures efficient power usage by activating the flashlight only when motion is detected, eliminating the need for continuous illumination throughout the night.
+- **Real-time Monitoring with Database Integration:** The device utilizes Firebase database integration to enable real-time monitoring capabilities. Users can track flashlight activations and monitor LDR values remotely and instantly.
+- **Multiple Operation Modes:**
+  -Mode 1: The basic operating mode where the flashlight turns on upon detecting movement.
 
 ## Components Used
 
