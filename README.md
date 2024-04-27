@@ -18,6 +18,13 @@ Users can track the number of flashlight activations within specific time period
 </div>
 </details>
 
+<details>
+<summary>Firebase Realtime DB</summary>
+  <div style="display: flex; justify-content: center;">
+  <img src="Pictures/Firebase_Realtime_DB.png" alt="Firebase_Realtime_DB" width="500" />
+</div>
+</details>
+
 ## Features
 - **Power Efficiency:** The device ensures efficient power usage by activating the flashlight only when motion is detected, eliminating the need for continuous illumination throughout the night.
 - **Real-time Monitoring with Database Integration:** The device utilizes Firebase database integration to enable real-time monitoring capabilities. Users can track flashlight activations and monitor LDR values remotely and instantly.
