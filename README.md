@@ -4,7 +4,7 @@
 One of the most common problems faced by people living in rural areas is the intrusion of civets into their homes, particularly onto house roofs. Civets tend to visit during the night, causing damage to ceilings and disturbances with their nocturnal activities.
 A common solution employed by residents is the use of high-wattage bulbs (flashlights) in the affected areas during the night. While effective, this solution consumes significant power, especially considering that civets may not be visited every night, leading to unnecessary energy expenditure.
 
-The "CivetGuart Indoor Barrier" is designed to address this issue. It is a simple device that activates the flashlight only when motion is detected, eliminating the need to keep the light on throughout the night. Additionally, it features a Light Dependent Resistor (LDR) to ensure activation only in dark environments.
+The "CivetGuard Indoor Barrier" is designed to address this issue. It is a simple device that activates the flashlight only when motion is detected, eliminating the need to keep the light on throughout the night. Additionally, it features a Light Dependent Resistor (LDR) to ensure activation only in dark environments.
 
 The device is built using the NodeMCU microcontroller development board and connects to the Firebase real-time database via the home Wi-Fi network. Real-time monitoring of the device's operation is possible through the Firebase database, allowing users to conveniently check its status without physically accessing the device, which is typically installed on the roof.
 
