@@ -1,4 +1,4 @@
-# CivetGuard-Indoor
+# CivetGuard-Indoor-Barrier
 
 ## Overview
 One of the most common problems faced by people living in rural areas is the intrusion of civets into their homes, particularly onto house roofs. Civets tend to visit during the night, causing damage to ceilings and disturbances with their nocturnal activities.
