@@ -55,3 +55,7 @@ Note: In some cases, the Light Dependent Resistor (LDR) may not be necessary, as
 - Flashlight
   
 <br />
+
+## License
+
+[MIT License](LICENSE)
